@@ -11,7 +11,7 @@
     {
       "type": "docker",
       "specific": {
-        "repositoryUrl": "git@github.com:nearform/nscaledemoweb.git",
+        "repositoryUrl": "git@github.com:menetrier/demoweb.git",
         "execute": {
           "args": "-p 8000:8000 -d",
           "exec": "node index.js"
@@ -41,7 +41,7 @@
         "type": "docker",
         "contains": [],
         "specific": {
-          "repositoryUrl": "git@github.com:nearform/nscaledemoweb.git",
+          "repositoryUrl": "git@github.com:menetrier/demoweb.git",
           "execute": {
             "args": "-p 8000:8000 -d",
             "exec": "node index.js"
